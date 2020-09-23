@@ -72,7 +72,10 @@ aside {
 	width: 350px;
 	float: right;
 	background: #ebe7dd;
+	padding-bottom: 30px;
 }
+
+/* FORMULARIO VISITA */
 
 section#visita {
 	background: #cdc8b1;
@@ -114,4 +117,24 @@ fieldset {
 
 legend {
 	display: none;
+}
+
+/* GALERIA DE FOTOS */	
+
+section#galeria {
+	padding: 0 27px 0 27px;
+
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 15px;
+}
+
+section#galeria img {
+	margin-left: 2px;
+	margin-top: 3px;
 }
